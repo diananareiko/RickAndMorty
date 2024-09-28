@@ -1,0 +1,42 @@
+{
+  "originHash" : "3e2f3b2da8c7b1d97cb6f14017e97772f40a95927a55d305b19d9318063940bf",
+  "pins" : [
+    {
+      "identity" : "rxflow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxFlow.git",
+      "state" : {
+        "revision" : "d8d4e53d05239f1ec1bd8bec173907868afa0fa1",
+        "version" : "2.13.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "revision" : "b06a8c8596e4c3e8e7788e08e720e3248563ce6a",
+        "version" : "6.7.1"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "be9dbcc7b86811bc131539a20c6f9c2d3e56919f",
+        "version" : "2.9.1"
+      }
+    },
+    {
+      "identity" : "swinjectautoregistration",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/SwinjectAutoregistration.git",
+      "state" : {
+        "revision" : "fd9ffae5f666d37b4b3c210af2e16a10598342e4",
+        "version" : "2.9.1"
+      }
+    }
+  ],
+  "version" : 3
+}
