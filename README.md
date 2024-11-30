@@ -57,4 +57,4 @@ This project demonstrates:
 
 **Diana Nareiko**  
 Email: diananareiko8@gmail.com  
-GitHub: (https://github.com/diananareiko)  
+GitHub: https://github.com/diananareiko
