@@ -47,8 +47,8 @@
 		950A4CA22CA895D400CAC441 /* CharactersAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersAssembly.swift; sourceTree = "<group>"; };
 		950A4CA62CA8989200CAC441 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
 		950A4CAF2CA89E5D00CAC441 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
-		950A4CB42CA8A5C500CAC441 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterTableViewCell.swift; path = RickAndMorty/MainFlow/Characters/ViewModel/CharacterTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		950A4CB52CA8A5C500CAC441 /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CharacterTableViewCell.xib; path = RickAndMorty/MainFlow/Characters/ViewModel/CharacterTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		950A4CB42CA8A5C500CAC441 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterTableViewCell.swift; path = RickAndMorty/MainFlow/Characters/View/Cells/CharacterTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		950A4CB52CA8A5C500CAC441 /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CharacterTableViewCell.xib; path = RickAndMorty/MainFlow/Characters/View/Cells/CharacterTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		95B42C3C2CA86B3800802F44 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		95B42C3E2CA86BDF00802F44 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		95B42C412CA86C1500802F44 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		950A4CB32CA8A5B500CAC441 /* Cells */ = {
+		952CFE912CFF363F00CC1069 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				950A4CB42CA8A5C500CAC441 /* CharacterTableViewCell.swift */,
@@ -214,7 +214,7 @@
 		95B42CA32CA88A3200802F44 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				950A4CB32CA8A5B500CAC441 /* Cells */,
+				952CFE912CFF363F00CC1069 /* Cells */,
 				95CEA5782C88D2EC00393734 /* CharactersViewController.swift */,
 				95CEA57A2C88D2EC00393734 /* CharactersViewController.storyboard */,
 				95B42CA72CA88CF500802F44 /* CharactersView.swift */,
