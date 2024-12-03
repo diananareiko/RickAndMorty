@@ -10,7 +10,7 @@ protocol APIServiceProtocol {
 class APIService: APIServiceProtocol {
     
     // MARK: - APIServiceProtocol
-
+    
     func request<T: Decodable>(target: TargetType) -> Single<T> {
         return Single.create { single in
             do {
@@ -50,4 +50,5 @@ class APIService: APIServiceProtocol {
                 return Disposables.create()
             }
         }
-    }}
+    }
+}
